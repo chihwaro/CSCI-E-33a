@@ -13,24 +13,26 @@ img {
     text-align: center;
 }
 
-.margin {
-    margin-top: 10px;
-}
-
 ul {
     display: inline-block;
     text-align: center;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
     body {
         background-color: lightsalmon;
     }
 }    
 
-@media (max-width: 499px) {
+@media screen and (max-width: 499px) {
     body {
-        background-color: green;
+        background-color: lightslategray;
     }
+}
 
+.row > div {
+    text-align: center;
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
 }
