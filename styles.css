@@ -21,3 +21,16 @@ ul {
     display: inline-block;
     text-align: center;
 }
+
+@media (min-width: 500px) {
+    body {
+        background-color: lightsalmon;
+    }
+}    
+
+@media (max-width: 499px) {
+    body {
+        background-color: green;
+    }
+
+}
