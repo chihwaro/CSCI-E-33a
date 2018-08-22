@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <title>Llamalicious!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Check Out This Llama!</h1>
         <img src="llama.jpg" width="50%">
         <p class="center">Isn't he so cool? Give him a name:</p>
-        <form class="center">
-            <input type="text" placeholder="Name the Llama" name="LlamaName">
-            <button>Name Him!</button>
-        </form>
-
-        <div class="center margin">  
-        <a href="llamaNames.html">Can't decide? Check out these common llama names.</a>
+        <div class="row justify-content-center">
+            <form class="center col-lg-8 col-lg-offset-2 col-sm-6 col-sm-offset-3">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Name the Llama" name="LlamaName">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="LlamaNameButton">Name Him!</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="center">  
+        <a href="llamaNames.html">Can't decide? Check out these common llama names.</a><br>
+        <a href="llamaPics.html">Alternatively, take a look at some sweet llama pictures for inspiration.</a>
         </div>
 
     </body>
