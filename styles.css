@@ -9,10 +9,15 @@ img {
     margin-bottom: 10px;
 }
 
-form {
+.center {
     text-align: center;
 }
 
-.center {
-    text-align: center;
+.margin {
+    margin-top: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
 }
