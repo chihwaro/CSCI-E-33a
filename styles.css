@@ -1,38 +1,38 @@
 h1 {
-    color: green;
-    text-align: center;
+  color: green;
+  text-align: center;
 }
 
 img {
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 ul {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
 
 @media screen and (min-width: 500px) {
-    body {
-        background-color: lightsalmon;
-    }
-}    
-
+  body {
+    background-color: lightsalmon;
+  }
+}
 @media screen and (max-width: 499px) {
-    body {
-        background-color: lightslategray;
-    }
+  body {
+    background-color: lightslategrey;
+  }
+}
+.row > div {
+  text-align: center;
+  padding: 20px;
+  background-color: teal;
+  border: 2px solid black;
 }
 
-.row > div {
-    text-align: center;
-    padding: 20px;
-    background-color: teal;
-    border: 2px solid black;
-}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,43 @@
+$heading-color: green;
+$large-background: lightsalmon;
+$small-background: lightslategrey;
+
+
+h1 {
+    color: $heading-color;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+    body {
+        background-color: $large-background;
+    }
+}    
+
+@media screen and (max-width: 499px) {
+    body {
+        background-color: $small-background;
+    }
+}
+
+.row > div {
+    text-align: center;
+    padding: 20px;
+    background-color: teal;
+    border: 2px solid black;
+}
